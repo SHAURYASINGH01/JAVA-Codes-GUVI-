@@ -47,6 +47,7 @@ class Motorcycle extends Vehicle {
         this.engineCapacity = engineCapacity;
     }
     // Overriding displayDetails method to include Motorcycle-specific details
+    
     @Override
     public void displayDetails() {
         System.out.println("Vehicle: Motorcycle");
